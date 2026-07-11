@@ -207,9 +207,7 @@
 | `mcl_cartography_table:cartography_table` | 制图台 | paper paper  / wood wood  / wood wood  | mcl_cartography_table |
 | `mcl_fishing:fishing_rod` | 鱼竿 |   stick /  stick string / stick  string | mcl_fishing |
 | `mcl_fishing:fishing_rod` | 鱼竿 | stick   / string stick  / string  stick | mcl_fishing |
-
-> 显示前 200 个，共 201 个。
-
+| `mcl_fletching_table:fletching_table` | 制箭台 | flint flint  / wood wood  / wood wood  | mcl_fletching_table |
 
 ## 无序合成 (115)
 
@@ -315,6 +313,21 @@
 | `mcl_colorblocks:concrete_powder_silver 8` | 淡灰色混凝土粉末 | sand, gravel, sand, gravel, silver, gravel, sand, gravel, sand | mcl_colorblocks |
 | `mcl_colorblocks:concrete_powder_lime 8` | 黄绿色混凝土粉末 | sand, gravel, sand, gravel, lime, gravel, sand, gravel, sand | mcl_colorblocks |
 | `mcl_colorblocks:concrete_powder_blue 8` | 蓝色混凝土粉末 | sand, gravel, sand, gravel, blue, gravel, sand, gravel, sand | mcl_colorblocks |
+| `mcl_colorblocks:concrete_powder_cyan 8` | 青色混凝土粉末 | sand, gravel, sand, gravel, cyan, gravel, sand, gravel, sand | mcl_colorblocks |
+| `mcl_colorblocks:concrete_powder_yellow 8` | 黄色混凝土粉末 | sand, gravel, sand, gravel, yellow, gravel, sand, gravel, sand | mcl_colorblocks |
+| `mcl_colorblocks:concrete_powder_black 8` | 黑色混凝土粉末 | sand, gravel, sand, gravel, black, gravel, sand, gravel, sand | mcl_colorblocks |
+| `mcl_colorblocks:concrete_powder_red 8` | 红色混凝土粉末 | sand, gravel, sand, gravel, red, gravel, sand, gravel, sand | mcl_colorblocks |
+| `mcl_colorblocks:concrete_powder_green 8` | 绿色混凝土粉末 | sand, gravel, sand, gravel, green, gravel, sand, gravel, sand | mcl_colorblocks |
+| `mcl_colorblocks:concrete_powder_pink 8` | 粉色混凝土粉末 | sand, gravel, sand, gravel, pink, gravel, sand, gravel, sand | mcl_colorblocks |
+| `mcl_colorblocks:concrete_powder_grey 8` | 灰色混凝土粉末 | sand, gravel, sand, gravel, grey, gravel, sand, gravel, sand | mcl_colorblocks |
+| `mcl_colorblocks:concrete_powder_purple 8` | 紫色混凝土粉末 | sand, gravel, sand, gravel, purple, gravel, sand, gravel, sand | mcl_colorblocks |
+| `mcl_chests:trapped_chest` | 陷阱箱 | iron_ingot, stick, wood, chest | mcl_temp_helper_recipes |
+| `mcl_fireworks:rocket_1 3` | 烟花火箭 | paper, gunpowder | mcl_fireworks |
+| `mcl_fireworks:rocket_2 3` | 烟花火箭 | paper, gunpowder, gunpowder | mcl_fireworks |
+| `mcl_fireworks:rocket_3 3` | 烟花火箭 | paper, gunpowder, gunpowder, gunpowder | mcl_fireworks |
+| `mcl_core:mossycobble` |  | cobble, moss | mcl_lush_caves |
+| `mcl_core:stonebrickmossy` |  | stonebrick, moss | mcl_lush_caves |
+| `mcl_mushrooms:mushroom_stew` | 蘑菇汤 | bowl, mushroom_brown, mushroom_red | mcl_mushrooms |
 
 ## 烧炼 (1)
 

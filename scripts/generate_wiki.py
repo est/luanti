@@ -169,10 +169,8 @@ def generate_blocks_page(data, trans_map):
         lines.append(f"\n## {category} ({len(items)})\n")
         lines.append("|  | 方块 | 中文 | 硬度 | 爆炸抗性 | 来源 |")
         lines.append("|:-:|:-----|:-----|-----:|---------:|:-----|")
-        for name, item in list(items.items())[:100]:
+        for name, item in items.items():
             lines.append(block_row(name, item, trans_map))
-        if len(items) > 100:
-            lines.append(f"\n> 显示前 100 个，共 {len(items)} 个。\n")
 
     return "\n".join(lines)
 
@@ -265,7 +263,7 @@ def generate_crafts_page(data, trans_map):
         lines.append(f"\n## 有序合成 ({len(shaped)})\n")
         lines.append("| 输出 | 中文 | 配方 | 来源 |")
         lines.append("|:-----|:-----|:-----|:-----|")
-        for c in shaped[:200]:
+        for c in shaped:
             output = c.get("output", "?")
             recipe = c.get("recipe", [])
             recipe_str = " / ".join(
@@ -275,14 +273,12 @@ def generate_crafts_page(data, trans_map):
             zh = item_id_to_zh(output, data, trans_map)
             source = c.get("_source_mod", "")
             lines.append(f"| `{output}` | {zh} | {recipe_str} | {source} |")
-        if len(shaped) > 200:
-            lines.append(f"\n> 显示前 200 个，共 {len(shaped)} 个。\n")
 
     if shapeless:
         lines.append(f"\n## 无序合成 ({len(shapeless)})\n")
         lines.append("| 输出 | 中文 | 材料 | 来源 |")
         lines.append("|:-----|:-----|:-----|:-----|")
-        for c in shapeless[:100]:
+        for c in shapeless:
             output = c.get("output", "?")
             recipe = c.get("recipe", [])
             recipe_str = ", ".join(r.split(":")[-1] if ":" in r else r for r in recipe)
@@ -294,7 +290,7 @@ def generate_crafts_page(data, trans_map):
         lines.append(f"\n## 烧炼 ({len(cooking)})\n")
         lines.append("| 输入 | 输出 | 中文 | 来源 |")
         lines.append("|:-----|:-----|:-----|:-----|")
-        for c in cooking[:100]:
+        for c in cooking:
             recipe = c.get("recipe", [])
             output = c.get("output", "?")
             input_str = recipe[0].split(":")[-1] if recipe and ":" in recipe[0] else (recipe[0] if recipe else "?")
