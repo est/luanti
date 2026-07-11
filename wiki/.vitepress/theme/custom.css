@@ -85,9 +85,10 @@
 
 .vp-doc th,
 .vp-doc td {
-  padding: 5px 10px;
+  padding: 4px 8px;
   border: 1px solid var(--vp-c-divider);
   text-align: left;
+  vertical-align: middle;
 }
 
 .vp-doc th {
@@ -108,6 +109,52 @@
   padding: 1px 4px;
   background: var(--vp-c-bg-soft);
   border-radius: 3px;
+}
+
+/* --------------------------------------------------------------------------
+   Texture icon: inline + hover zoom
+   -------------------------------------------------------------------------- */
+.tex {
+  display: inline-block;
+  position: relative;
+}
+
+.tex img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  cursor: help;
+}
+
+/* Hover: 4x zoom popup */
+.tex:hover::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 4px);
+  transform: translateX(-50%);
+  width: 64px;
+  height: 64px;
+  background-image: inherit;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 4px;
+  background-color: var(--vp-c-bg);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* Since ::after can't inherit background-image, use a different approach:
+   duplicate the img src via JS or just scale the img itself */
+.tex:hover img {
+  transform: scale(4);
+  transform-origin: center bottom;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border-radius: 2px;
 }
 
 /* --------------------------------------------------------------------------

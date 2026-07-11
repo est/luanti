@@ -87,11 +87,11 @@ def texture_url_any(texture_name, mod_name):
 
 
 def img_hover(texture_name, mod_name, alt=""):
-    """Generate an inline image with hover preview."""
+    """Generate an inline image with hover zoom."""
     url = texture_url_any(texture_name, mod_name)
     if not url:
         return ""
-    return f'<img src="{url}" alt="{alt}" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display=\'none\'" />'
+    return f'<span class="tex"><img src="{url}" alt="{alt}" onerror="this.parentNode.style.display=\'none\'" /></span>'
 
 
 def format_groups(groups):
@@ -118,8 +118,8 @@ def block_row(name, item, trans_map):
     tex = item.get("texture", "")
     mod = item.get("source_mod", "")
     img = img_hover(tex, mod, short_name)
-    icon_col = f" {img}" if img else ""
-    return f"|{icon_col} `{short_name}` | {desc} | {zh} | {item['hardness']} | {item['blast_resistance']} | {item['source_mod']} |"
+    icon = f"{img} " if img else ""
+    return f"| {icon}`{short_name}` | {desc} | {zh} | {item['hardness']} | {item['blast_resistance']} | {item['source_mod']} |"
 
 
 # ============================================================================
@@ -167,8 +167,8 @@ def generate_blocks_page(data, trans_map):
         if not items:
             continue
         lines.append(f"\n## {category} ({len(items)})\n")
-        lines.append("|  | 方块 | 中文 | 硬度 | 爆炸抗性 | 来源 |")
-        lines.append("|:-:|:-----|:-----|-----:|---------:|:-----|")
+        lines.append("| 方块 | 描述 | 中文 | 硬度 | 爆炸抗性 | 来源 |")
+        lines.append("|:-----|:-----|:-----|-----:|---------:|:-----|")
         for name, item in items.items():
             lines.append(block_row(name, item, trans_map))
 
@@ -197,14 +197,14 @@ def generate_items_page(data, trans_map):
 
     for mod, items in sorted(by_mod.items()):
         lines.append(f"\n## {mod} ({len(items)})\n")
-        lines.append("|  | 物品 | 中文 |")
-        lines.append("|:-:|:-----|:-----|")
+        lines.append("| 物品 | 描述 | 中文 |")
+        lines.append("|:-----|:-----|:-----|")
         for item in items:
             short_name = item["name"].split(":")[-1] if ":" in item["name"] else item["name"]
             zh = translate(item["description"], trans_map)
             img = img_hover(item["texture"], mod, short_name)
-            icon_col = f" {img}" if img else ""
-            lines.append(f"|{icon_col} `{short_name}` | {item['description']} | {zh} |")
+            icon = f"{img} " if img else ""
+            lines.append(f"| {icon}`{short_name}` | {item['description']} | {zh} |")
 
     return "\n".join(lines)
 
@@ -220,8 +220,8 @@ def generate_tools_page(data, trans_map):
     lines.append("# 工具与武器\n")
     lines.append(f"> 共 **{len(tools)}** 个工具，从 MineClonia 源码自动提取。\n")
 
-    lines.append("|  | 工具 | 中文 | 来源 |")
-    lines.append("|:-:|:-----|:-----|:-----|")
+    lines.append("| 工具 | 描述 | 中文 | 来源 |")
+    lines.append("|:-----|:-----|:-----|:-----|")
     for name, tool_def in sorted(tools.items()):
         desc = clean_description(tool_def.get("description", name))
         zh = translate(desc, trans_map)
@@ -229,8 +229,8 @@ def generate_tools_page(data, trans_map):
         short_name = name.split(":")[-1] if ":" in name else name
         tex = extract_texture(tool_def)
         img = img_hover(tex, source, short_name)
-        icon_col = f" {img}" if img else ""
-        lines.append(f"|{icon_col} `{short_name}` | {desc} | {zh} | {source} |")
+        icon = f"{img} " if img else ""
+        lines.append(f"| {icon}`{short_name}` | {desc} | {zh} | {source} |")
 
     return "\n".join(lines)
 
