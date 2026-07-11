@@ -91,7 +91,7 @@ def img_hover(texture_name, mod_name, alt=""):
     url = texture_url_any(texture_name, mod_name)
     if not url:
         return ""
-    return f'<span class="tex"><img src="{url}" alt="{alt}" onerror="this.parentNode.style.display=\'none\'" /></span>'
+    return f'<span class="tex"><img src="{url}" alt="{alt}" loading="lazy" onerror="this.parentNode.style.display=\'none\'" /></span>'
 
 
 def format_groups(groups):

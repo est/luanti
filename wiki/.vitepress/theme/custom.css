@@ -117,6 +117,7 @@
 .tex {
   display: inline-block;
   position: relative;
+  vertical-align: middle;
 }
 
 .tex img {
@@ -128,33 +129,18 @@
   cursor: help;
 }
 
-/* Hover: 4x zoom popup */
-.tex:hover::after {
-  content: "";
+.tex:hover img {
   position: absolute;
-  left: 50%;
+  width: 128px;
+  height: 128px;
+  left: -8px;
   bottom: calc(100% + 4px);
-  transform: translateX(-50%);
-  width: 64px;
-  height: 64px;
-  background-image: inherit;
+  z-index: 100;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
   border: 1px solid var(--vp-c-divider);
   border-radius: 4px;
-  background-color: var(--vp-c-bg);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  z-index: 10;
+  background: var(--vp-c-bg);
   pointer-events: none;
-}
-
-/* Since ::after can't inherit background-image, use a different approach:
-   duplicate the img src via JS or just scale the img itself */
-.tex:hover img {
-  transform: scale(4);
-  transform-origin: center bottom;
-  position: relative;
-  z-index: 10;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  border-radius: 2px;
 }
 
 /* --------------------------------------------------------------------------
