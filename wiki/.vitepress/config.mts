@@ -1,11 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/luanti/',
   title: 'MineClonia Wiki',
   description: 'MineClonia 游戏百科 — 自动同步源码，永远最新',
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/luanti/favicon.ico' }],
   ],
 
   themeConfig: {
