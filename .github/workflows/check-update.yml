@@ -42,7 +42,7 @@ jobs:
       - name: Check for MineClonia updates
         id: check
         run: |
-          REMOTE_HEAD=$(git ls-remote --refs "$MINECLONIA_REMOTE" "$MINECLONIA_BRANCH" | cut -f1)
+          REMOTE_HEAD=$(git ls-remote "$MINECLONIA_REMOTE" "refs/heads/$MINECLONIA_BRANCH" | cut -f1)
           LOCAL_HEAD=""
           [ -f "$VERSION_FILE" ] && LOCAL_HEAD=$(cat "$VERSION_FILE")
 
