@@ -1,0 +1,30 @@
+# Reference sources (used for wiki generation, not part of the repo)
+luanti/
+mineclonia/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+wiki/.vitepress/cache/
+wiki/.vitepress/dist/
+.mimocode

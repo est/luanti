@@ -1,0 +1,15 @@
+{
+  "name": "mineclonia-wiki",
+  "version": "0.1.0",
+  "description": "MineClonia 自动更新 Wiki",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev wiki",
+    "build": "vitepress build wiki",
+    "preview": "vitepress preview wiki"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

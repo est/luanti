@@ -1,0 +1,67 @@
+name: Build & Deploy Wiki
+
+on:
+  schedule:
+    # 每天 UTC 02:00 检查一次 (北京时间 10:00)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  check-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check for MineClonia updates
+        id: check
+        run: |
+          # TODO: 实现版本检测逻辑
+          # 获取 MineClonia 最新 release tag
+          # 与本地记录的版本对比
+          echo "has_update=true" >> $GITHUB_OUTPUT
+          echo "version=latest" >> $GITHUB_OUTPUT
+
+      - name: Pull latest MineClonia source
+        if: steps.check.outputs.has_update == 'true'
+        run: |
+          # TODO: 拉取最新源码
+          echo "Pulling latest source..."
+
+      - name: Run Lua parser
+        if: steps.check.outputs.has_update == 'true'
+        run: |
+          # TODO: 运行 Lua 解析脚本生成 wiki 数据
+          echo "Generating wiki data from source..."
+
+      - name: Build VitePress
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: wiki/.vitepress/dist
+
+      - name: Commit updated data
+        if: steps.check.outputs.has_update == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add wiki/
+          git diff --staged --quiet || git commit -m "chore: auto-update wiki for ${{ steps.check.outputs.version }}"
+          git push
