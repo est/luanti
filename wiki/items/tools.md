@@ -2,78 +2,78 @@
 
 > 共 **73** 个工具，从 MineClonia 源码自动提取。
 
-| 工具 | 描述 | 来源 |
-|------|------|------|
-| `boots_chain` | Chainmail Boots | mcl_armor |
-| `boots_copper` | Copper Boots | mcl_armor |
-| `boots_diamond` | Diamond Boots | mcl_armor |
-| `boots_gold` | Golden Boots | mcl_armor |
-| `boots_iron` | Iron Boots | mcl_armor |
-| `boots_leather` | Leather Boots | mcl_armor |
-| `boots_netherite` | Netherite Boots | mcl_armor |
-| `chestplate_chain` | Chainmail Chestplate | mcl_armor |
-| `chestplate_copper` | Copper Chestplate | mcl_armor |
-| `chestplate_diamond` | Diamond Chestplate | mcl_armor |
-| `chestplate_gold` | Golden Chestplate | mcl_armor |
-| `chestplate_iron` | Iron Chestplate | mcl_armor |
-| `chestplate_leather` | Leather Tunic | mcl_armor |
-| `chestplate_netherite` | Netherite Chestplate | mcl_armor |
-| `elytra` | Elytra | mcl_armor |
-| `helmet_chain` | Chainmail Helmet | mcl_armor |
-| `helmet_copper` | Copper Helmet | mcl_armor |
-| `helmet_diamond` | Diamond Helmet | mcl_armor |
-| `helmet_gold` | Golden Helmet | mcl_armor |
-| `helmet_iron` | Iron Helmet | mcl_armor |
-| `helmet_leather` | Leather Cap | mcl_armor |
-| `helmet_netherite` | Netherite Helmet | mcl_armor |
-| `leggings_chain` | Chainmail Leggings | mcl_armor |
-| `leggings_copper` | Copper Leggings | mcl_armor |
-| `leggings_diamond` | Diamond Leggings | mcl_armor |
-| `leggings_gold` | Golden Leggings | mcl_armor |
-| `leggings_iron` | Iron Leggings | mcl_armor |
-| `leggings_leather` | Leather Pants | mcl_armor |
-| `leggings_netherite` | Netherite Leggings | mcl_armor |
-| `attachment_dbg_tool` | Debug attachment bounds | mcl_attachments |
-| `hoe_copper` | Copper Hoe | mcl_farming |
-| `hoe_diamond` | Diamond Hoe | mcl_farming |
-| `hoe_gold` | Golden Hoe | mcl_farming |
-| `hoe_iron` | Iron Hoe | mcl_farming |
-| `hoe_netherite` | Netherite Hoe | mcl_farming |
-| `hoe_stone` | Stone Hoe | mcl_farming |
-| `hoe_wood` | Wood Hoe | mcl_farming |
-| `flint_and_steel` | Flint and Steel | mcl_fire |
-| `fishing_rod` | Fishing Rod | mcl_fishing |
-| `spyglass` | Spyglass | mcl_spyglass |
-| `brush` | Brush | mcl_sus_nodes |
-| `axe_copper` | Copper Axe | mcl_tools |
-| `axe_diamond` | Diamond Axe | mcl_tools |
-| `axe_gold` | Golden Axe | mcl_tools |
-| `axe_iron` | Iron Axe | mcl_tools |
-| `axe_netherite` | Netherite Axe | mcl_tools |
-| `axe_stone` | Stone Axe | mcl_tools |
-| `axe_wood` | Wooden Axe | mcl_tools |
-| `mace` | Mace | mcl_tools |
-| `pick_copper` | Copper Pickaxe | mcl_tools |
-| `pick_diamond` | Diamond Pickaxe | mcl_tools |
-| `pick_gold` | Golden Pickaxe | mcl_tools |
-| `pick_iron` | Iron Pickaxe | mcl_tools |
-| `pick_netherite` | Netherite Pickaxe | mcl_tools |
-| `pick_stone` | Stone Pickaxe | mcl_tools |
-| `pick_wood` | Wooden Pickaxe | mcl_tools |
-| `shears` | Shears | mcl_tools |
-| `shovel_copper` | Copper Shovel | mcl_tools |
-| `shovel_diamond` | Diamond Shovel | mcl_tools |
-| `shovel_gold` | Golden Shovel | mcl_tools |
-| `shovel_iron` | Iron Shovel | mcl_tools |
-| `shovel_netherite` | Netherite Shovel | mcl_tools |
-| `shovel_stone` | Stone Shovel | mcl_tools |
-| `shovel_wood` | Wooden Shovel | mcl_tools |
-| `sword_copper` | Copper Sword | mcl_tools |
-| `sword_diamond` | Diamond Sword | mcl_tools |
-| `sword_gold` | Golden Sword | mcl_tools |
-| `sword_iron` | Iron Sword | mcl_tools |
-| `sword_netherite` | Netherite Sword | mcl_tools |
-| `sword_stone` | Stone Sword | mcl_tools |
-| `sword_wood` | Wooden Sword | mcl_tools |
-| `trident` | Trident | mcl_tridents |
-| `screwdriver` | Screwdriver | screwdriver |
+|  | 工具 | 中文 | 来源 |
+|:-:|:-----|:-----|:-----|
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_boots_chain.png" alt="boots_chain" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `boots_chain` | Chainmail Boots | 锁链靴子 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_boots_copper.png" alt="boots_copper" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `boots_copper` | Copper Boots |  | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_boots_diamond.png" alt="boots_diamond" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `boots_diamond` | Diamond Boots | 钻石靴子 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_boots_gold.png" alt="boots_gold" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `boots_gold` | Golden Boots | 金靴子 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_boots_iron.png" alt="boots_iron" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `boots_iron` | Iron Boots | 铁靴 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_boots_leather.png" alt="boots_leather" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `boots_leather` | Leather Boots | 皮靴 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_boots_netherite.png" alt="boots_netherite" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `boots_netherite` | Netherite Boots | 下界合金靴子 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_chestplate_chain.png" alt="chestplate_chain" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `chestplate_chain` | Chainmail Chestplate | 锁链胸甲 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_chestplate_copper.png" alt="chestplate_copper" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `chestplate_copper` | Copper Chestplate |  | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_chestplate_diamond.png" alt="chestplate_diamond" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `chestplate_diamond` | Diamond Chestplate | 钻石胸甲 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_chestplate_gold.png" alt="chestplate_gold" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `chestplate_gold` | Golden Chestplate | 金胸甲 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_chestplate_iron.png" alt="chestplate_iron" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `chestplate_iron` | Iron Chestplate | 铁胸甲 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_chestplate_leather.png" alt="chestplate_leather" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `chestplate_leather` | Leather Tunic | 皮衣 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_chestplate_netherite.png" alt="chestplate_netherite" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `chestplate_netherite` | Netherite Chestplate | 下界合金胸甲 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_elytra.png" alt="elytra" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `elytra` | Elytra | 鞘翅 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_helmet_chain.png" alt="helmet_chain" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `helmet_chain` | Chainmail Helmet | 锁链头盔 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_helmet_copper.png" alt="helmet_copper" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `helmet_copper` | Copper Helmet |  | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_helmet_diamond.png" alt="helmet_diamond" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `helmet_diamond` | Diamond Helmet | 钻石头盔 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_helmet_gold.png" alt="helmet_gold" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `helmet_gold` | Golden Helmet | 金头盔 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_helmet_iron.png" alt="helmet_iron" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `helmet_iron` | Iron Helmet | 铁头盔 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_helmet_leather.png" alt="helmet_leather" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `helmet_leather` | Leather Cap | 皮帽 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_helmet_netherite.png" alt="helmet_netherite" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `helmet_netherite` | Netherite Helmet | 下界合金头盔 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_leggings_chain.png" alt="leggings_chain" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `leggings_chain` | Chainmail Leggings | 锁链护腿 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_leggings_copper.png" alt="leggings_copper" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `leggings_copper` | Copper Leggings |  | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_leggings_diamond.png" alt="leggings_diamond" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `leggings_diamond` | Diamond Leggings | 钻石护腿 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_leggings_gold.png" alt="leggings_gold" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `leggings_gold` | Golden Leggings | 金护腿 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_leggings_iron.png" alt="leggings_iron" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `leggings_iron` | Iron Leggings | 铁护腿 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_leggings_leather.png" alt="leggings_leather" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `leggings_leather` | Leather Pants | 皮裤 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_armor/textures/mcl_armor_inv_leggings_netherite.png" alt="leggings_netherite" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `leggings_netherite` | Netherite Leggings | 下界合金护腿 | mcl_armor |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_attachments/textures/default_stick.png" alt="attachment_dbg_tool" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `attachment_dbg_tool` | Debug attachment bounds |  | mcl_attachments |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_copper_tool_hoe.png" alt="hoe_copper" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `hoe_copper` | Copper Hoe |  | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_tool_diamondhoe.png" alt="hoe_diamond" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `hoe_diamond` | Diamond Hoe | 钻石锄 | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_tool_goldhoe.png" alt="hoe_gold" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `hoe_gold` | Golden Hoe | 金锄 | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_tool_steelhoe.png" alt="hoe_iron" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `hoe_iron` | Iron Hoe | 铁锄 | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_tool_netheritehoe.png" alt="hoe_netherite" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `hoe_netherite` | Netherite Hoe | 下界合金锄 | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_tool_stonehoe.png" alt="hoe_stone" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `hoe_stone` | Stone Hoe | 石锄 | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_tool_woodhoe.png" alt="hoe_wood" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `hoe_wood` | Wood Hoe | 木锄 | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_fire/textures/mcl_fire_flint_and_steel.png" alt="flint_and_steel" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `flint_and_steel` | Flint and Steel | 打火石 | mcl_fire |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_fishing/textures/mcl_fishing_fishing_rod.png" alt="fishing_rod" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `fishing_rod` | Fishing Rod | 鱼竿 | mcl_fishing |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_spyglass/textures/mcl_spyglass.png" alt="spyglass" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `spyglass` | Spyglass | 望远镜 | mcl_spyglass |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_sus_nodes/textures/mcl_sus_nodes_brush.png" alt="brush" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `brush` | Brush |  | mcl_sus_nodes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/mcl_copper_tool_axe.png" alt="axe_copper" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `axe_copper` | Copper Axe |  | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_diamondaxe.png" alt="axe_diamond" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `axe_diamond` | Diamond Axe | 钻石斧 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_goldaxe.png" alt="axe_gold" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `axe_gold` | Golden Axe | 金斧 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_steelaxe.png" alt="axe_iron" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `axe_iron` | Iron Axe | 铁斧 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_netheriteaxe.png" alt="axe_netherite" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `axe_netherite` | Netherite Axe | 下界合金斧 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_stoneaxe.png" alt="axe_stone" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `axe_stone` | Stone Axe | 石斧 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_woodaxe.png" alt="axe_wood" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `axe_wood` | Wooden Axe | 木斧 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/mcl_tools_mace.png" alt="mace" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `mace` | Mace | 钉头锤 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/mcl_copper_tool_pick.png" alt="pick_copper" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pick_copper` | Copper Pickaxe |  | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_diamondpick.png" alt="pick_diamond" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pick_diamond` | Diamond Pickaxe | 钻石镐 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_goldpick.png" alt="pick_gold" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pick_gold` | Golden Pickaxe | 金镐 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_steelpick.png" alt="pick_iron" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pick_iron` | Iron Pickaxe | 铁镐 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_netheritepick.png" alt="pick_netherite" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pick_netherite` | Netherite Pickaxe | 下界合金镐 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_stonepick.png" alt="pick_stone" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pick_stone` | Stone Pickaxe | 石镐 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_woodpick.png" alt="pick_wood" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pick_wood` | Wooden Pickaxe | 木镐 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_shears.png" alt="shears" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `shears` | Shears | 剪刀 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/mcl_copper_tool_shovel.png" alt="shovel_copper" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `shovel_copper` | Copper Shovel |  | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_diamondshovel.png" alt="shovel_diamond" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `shovel_diamond` | Diamond Shovel | 钻石铲 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_goldshovel.png" alt="shovel_gold" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `shovel_gold` | Golden Shovel | 金铲 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_steelshovel.png" alt="shovel_iron" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `shovel_iron` | Iron Shovel | 铁铲 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_netheriteshovel.png" alt="shovel_netherite" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `shovel_netherite` | Netherite Shovel | 下界合金铲 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_stoneshovel.png" alt="shovel_stone" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `shovel_stone` | Stone Shovel | 石铲 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_woodshovel.png" alt="shovel_wood" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `shovel_wood` | Wooden Shovel | 木铲 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/mcl_copper_tool_sword.png" alt="sword_copper" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `sword_copper` | Copper Sword |  | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_diamondsword.png" alt="sword_diamond" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `sword_diamond` | Diamond Sword | 钻石剑 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_goldsword.png" alt="sword_gold" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `sword_gold` | Golden Sword | 金剑 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_steelsword.png" alt="sword_iron" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `sword_iron` | Iron Sword | 铁剑 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_netheritesword.png" alt="sword_netherite" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `sword_netherite` | Netherite Sword | 下界合金剑 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_stonesword.png" alt="sword_stone" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `sword_stone` | Stone Sword | 石剑 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/default_tool_woodsword.png" alt="sword_wood" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `sword_wood` | Wooden Sword | 木剑 | mcl_tools |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tridents/textures/mcl_tridents_trident_item.png" alt="trident" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `trident` | Trident |  | mcl_tridents |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/screwdriver/textures/screwdriver.png" alt="screwdriver" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `screwdriver` | Screwdriver | 螺丝刀 | screwdriver |

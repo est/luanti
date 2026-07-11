@@ -5,261 +5,261 @@
 
 ## 建筑方块 (605)
 
-| 方块 | 描述 | 硬度 | 爆炸抗性 | 来源 |
-|------|------|------|---------|------|
-| `door` | Copper Door | - | - | mcl_copper |
-| `door_b_1` | :mcl_copper:door_b_1 | 3 | - | mcl_copper |
-| `door_b_2` | :mcl_copper:door_b_2 | 3 | - | mcl_copper |
-| `door_exposed` | Exposed Copper Door | - | - | mcl_copper |
-| `door_exposed_b_1` | :mcl_copper:door_exposed_b_1 | 3 | - | mcl_copper |
-| `door_exposed_b_2` | :mcl_copper:door_exposed_b_2 | 3 | - | mcl_copper |
-| `door_exposed_t_1` | :mcl_copper:door_exposed_t_1 | 3 | - | mcl_copper |
-| `door_exposed_t_2` | :mcl_copper:door_exposed_t_2 | 3 | - | mcl_copper |
-| `door_oxidized` | Oxidized Copper Door | - | - | mcl_copper |
-| `door_oxidized_b_1` | :mcl_copper:door_oxidized_b_1 | 3 | - | mcl_copper |
-| `door_oxidized_b_2` | :mcl_copper:door_oxidized_b_2 | 3 | - | mcl_copper |
-| `door_oxidized_t_1` | :mcl_copper:door_oxidized_t_1 | 3 | - | mcl_copper |
-| `door_oxidized_t_2` | :mcl_copper:door_oxidized_t_2 | 3 | - | mcl_copper |
-| `door_t_1` | :mcl_copper:door_t_1 | 3 | - | mcl_copper |
-| `door_t_2` | :mcl_copper:door_t_2 | 3 | - | mcl_copper |
-| `door_weathered` | Weathered Copper Door | - | - | mcl_copper |
-| `door_weathered_b_1` | :mcl_copper:door_weathered_b_1 | 3 | - | mcl_copper |
-| `door_weathered_b_2` | :mcl_copper:door_weathered_b_2 | 3 | - | mcl_copper |
-| `door_weathered_t_1` | :mcl_copper:door_weathered_t_1 | 3 | - | mcl_copper |
-| `door_weathered_t_2` | :mcl_copper:door_weathered_t_2 | 3 | - | mcl_copper |
-| `trapdoor` | Copper Trapdoor | 3 | - | mcl_copper |
-| `trapdoor_exposed` | Exposed Copper Trapdoor | 3 | - | mcl_copper |
-| `trapdoor_exposed_open` | :mcl_copper:trapdoor_exposed_open | 3 | - | mcl_copper |
-| `trapdoor_open` | :mcl_copper:trapdoor_open | 3 | - | mcl_copper |
-| `trapdoor_oxidized` | Oxidized Copper Trapdoor | 3 | - | mcl_copper |
-| `trapdoor_oxidized_open` | :mcl_copper:trapdoor_oxidized_open | 3 | - | mcl_copper |
-| `trapdoor_weathered` | Weathered Copper Trapdoor | 3 | - | mcl_copper |
-| `trapdoor_weathered_open` | :mcl_copper:trapdoor_weathered_open | 3 | - | mcl_copper |
-| `iron_door` | Iron Door | - | - | mcl_doors |
-| `iron_trapdoor` | Iron Trapdoor | 5 | - | mcl_doors |
-| `iron_trapdoor_open` | :mcl_doors:iron_trapdoor_open | 5 | - | mcl_doors |
-| `poppy` | Poppy | - | - | mcl_flowers |
-| `creeper` | Creeper Head | 1 | - | mcl_heads |
-| `creeper_ceiling` | :mcl_heads:creeper_ceiling | 1 | - | mcl_heads |
-| `creeper_wall` | :mcl_heads:creeper_wall | 1 | - | mcl_heads |
-| `dragon` | Dragon Head | 1 | - | mcl_heads |
-| `dragon_ceiling` | :mcl_heads:dragon_ceiling | 1 | - | mcl_heads |
-| `dragon_wall` | :mcl_heads:dragon_wall | 1 | - | mcl_heads |
-| `piglin` | Piglin Head | 1 | - | mcl_heads |
-| `piglin_ceiling` | :mcl_heads:piglin_ceiling | 1 | - | mcl_heads |
-| `piglin_wall` | :mcl_heads:piglin_wall | 1 | - | mcl_heads |
-| `skeleton` | Skeleton Skull | 1 | - | mcl_heads |
-| `skeleton_ceiling` | :mcl_heads:skeleton_ceiling | 1 | - | mcl_heads |
-| `skeleton_wall` | :mcl_heads:skeleton_wall | 1 | - | mcl_heads |
-| `steve` | Human Head | 1 | - | mcl_heads |
-| `steve_ceiling` | :mcl_heads:steve_ceiling | 1 | - | mcl_heads |
-| `steve_wall` | :mcl_heads:steve_wall | 1 | - | mcl_heads |
-| `wither_skeleton` | Wither Skeleton Skull | 1 | - | mcl_heads |
-| `wither_skeleton_ceiling` | :mcl_heads:wither_skeleton_ceiling | 1 | - | mcl_heads |
-| `wither_skeleton_wall` | :mcl_heads:wither_skeleton_wall | 1 | - | mcl_heads |
-| `zombie` | Zombie Head | 1 | - | mcl_heads |
-| `zombie_ceiling` | :mcl_heads:zombie_ceiling | 1 | - | mcl_heads |
-| `zombie_wall` | :mcl_heads:zombie_wall | 1 | - | mcl_heads |
-| `frame` | Item Frame | 0.5 | - | mcl_itemframes |
-| `glow_frame` | Glow Item Frame | 0.5 | - | mcl_itemframes |
-| `invisible_frame` | Invisible Item Frame | 0.5 | - | mcl_itemframes |
-| `invisible_glow_frame` | Invisible Glow Item Frame | 0.5 | - | mcl_itemframes |
-| `chain` | Chain | 5 | 6 | mcl_lanterns |
-| `copper_chain` | Copper Chain | 5 | 6 | mcl_copper |
-| `copper_chain_exposed` | Exposed Copper Chain | 5 | 6 | mcl_copper |
-| `copper_chain_oxidized` | Oxidized Copper Chain | 5 | 6 | mcl_copper |
-| `copper_chain_weathered` | Weathered Copper Chain | 5 | 6 | mcl_copper |
-| `copper_lantern_ceiling` | Copper Lantern | 3.5 | - | mcl_copper |
-| `copper_lantern_exposed_ceiling` | Exposed Copper Lantern | 3.5 | - | mcl_copper |
-| `copper_lantern_exposed_floor` | Exposed Copper Lantern | 3.5 | - | mcl_copper |
-| `copper_lantern_floor` | Copper Lantern | 3.5 | - | mcl_copper |
-| `copper_lantern_oxidized_ceiling` | Oxidized Copper Lantern | 3.5 | - | mcl_copper |
-| `copper_lantern_oxidized_floor` | Oxidized Copper Lantern | 3.5 | - | mcl_copper |
-| `copper_lantern_weathered_ceiling` | Weathered Copper Lantern | 3.5 | - | mcl_copper |
-| `copper_lantern_weathered_floor` | Weathered Copper Lantern | 3.5 | - | mcl_copper |
-| `lantern_ceiling` | Lantern | 3.5 | - | mcl_lanterns |
-| `lantern_floor` | Lantern | 3.5 | - | mcl_lanterns |
-| `soul_lantern_ceiling` | Soul Lantern | 3.5 | - | mcl_lanterns |
-| `soul_lantern_floor` | Soul Lantern | 3.5 | - | mcl_lanterns |
-| `monster_egg_deepslate` | Infested Deepslate | 1.5 | 0.75 | mcl_deepslate |
-| `monster_egg_stone` | Infested Stone | 0.75 | 6 | mcl_monster_eggs |
-| `bar` | :mcl_panes:bar | 5 | 6 | mcl_panes |
-| `bar_flat` | Iron Bars | 5 | 6 | mcl_panes |
-| `copper_bar` | :mcl_panes:copper_bar | 5 | 6 | mcl_copper |
-| `copper_bar_exposed` | :mcl_panes:copper_bar_exposed | 5 | 6 | mcl_copper |
-| `copper_bar_exposed_flat` | Exposed Copper Bars | 5 | 6 | mcl_copper |
-| `copper_bar_flat` | Copper Bars | 5 | 6 | mcl_copper |
-| `copper_bar_oxidized` | :mcl_panes:copper_bar_oxidized | 5 | 6 | mcl_copper |
-| `copper_bar_oxidized_flat` | Oxidized Copper Bars | 5 | 6 | mcl_copper |
-| `copper_bar_weathered` | :mcl_panes:copper_bar_weathered | 5 | 6 | mcl_copper |
-| `copper_bar_weathered_flat` | Weathered Copper Bars | 5 | 6 | mcl_copper |
-| `pane_black` | :mcl_panes:pane_black | 0.3 | - | mcl_panes |
-| `pane_black_flat` | @1 Glass Pane | 0.3 | - | mcl_panes |
-| `pane_blue` | :mcl_panes:pane_blue | 0.3 | - | mcl_panes |
-| `pane_blue_flat` | @1 Glass Pane | 0.3 | - | mcl_panes |
-| `pane_brown` | :mcl_panes:pane_brown | 0.3 | - | mcl_panes |
-| `pane_brown_flat` | @1 Glass Pane | 0.3 | - | mcl_panes |
-| `pane_cyan` | :mcl_panes:pane_cyan | 0.3 | - | mcl_panes |
-| `pane_cyan_flat` | @1 Glass Pane | 0.3 | - | mcl_panes |
-| `pane_green` | :mcl_panes:pane_green | 0.3 | - | mcl_panes |
-| `pane_green_flat` | @1 Glass Pane | 0.3 | - | mcl_panes |
-| `pane_grey` | :mcl_panes:pane_grey | 0.3 | - | mcl_panes |
-| `pane_grey_flat` | @1 Glass Pane | 0.3 | - | mcl_panes |
-| `pane_light_blue` | :mcl_panes:pane_light_blue | 0.3 | - | mcl_panes |
-| `pane_light_blue_flat` | @1 Glass Pane | 0.3 | - | mcl_panes |
+|  | 方块 | 中文 | 硬度 | 爆炸抗性 | 来源 |
+|:-:|:-----|:-----|-----:|---------:|:-----|
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door` | Copper Door | 铜门 | - | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door_b_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_b_1` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door_b_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_b_2` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door_exposed" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_exposed` | Exposed Copper Door | 外露铜门 | - | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door_exposed_b_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_exposed_b_1` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door_exposed_b_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_exposed_b_2` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_door_exposed_top.png" alt="door_exposed_t_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_exposed_t_1` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_door_exposed_top.png" alt="door_exposed_t_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_exposed_t_2` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door_oxidized" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_oxidized` | Oxidized Copper Door | 氧化铜门 | - | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door_oxidized_b_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_oxidized_b_1` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door_oxidized_b_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_oxidized_b_2` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_door_oxidized_top.png" alt="door_oxidized_t_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_oxidized_t_1` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_door_oxidized_top.png" alt="door_oxidized_t_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_oxidized_t_2` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_door_top.png" alt="door_t_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_t_1` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_door_top.png" alt="door_t_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_t_2` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door_weathered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_weathered` | Weathered Copper Door | 风化铜门 | - | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door_weathered_b_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_weathered_b_1` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/blank.png" alt="door_weathered_b_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_weathered_b_2` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_door_weathered_top.png" alt="door_weathered_t_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_weathered_t_1` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_door_weathered_top.png" alt="door_weathered_t_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `door_weathered_t_2` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_trapdoor.png" alt="trapdoor" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `trapdoor` | Copper Trapdoor | 铜质活板门 | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_trapdoor_exposed.png" alt="trapdoor_exposed" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `trapdoor_exposed` | Exposed Copper Trapdoor | 外露铜质活板门 | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_trapdoor_exposed_side.png" alt="trapdoor_exposed_open" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `trapdoor_exposed_open` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_trapdoor_side.png" alt="trapdoor_open" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `trapdoor_open` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_trapdoor_oxidized.png" alt="trapdoor_oxidized" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `trapdoor_oxidized` | Oxidized Copper Trapdoor | 氧化铜质活板门 | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_trapdoor_oxidized_side.png" alt="trapdoor_oxidized_open" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `trapdoor_oxidized_open` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_trapdoor_weathered.png" alt="trapdoor_weathered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `trapdoor_weathered` | Weathered Copper Trapdoor | 风化铜活板门 | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_trapdoor_weathered_side.png" alt="trapdoor_weathered_open" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `trapdoor_weathered_open` | - |  | 3 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_doors/textures/blank.png" alt="iron_door" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `iron_door` | Iron Door | 铁门 | - | - | mcl_doors |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_doors/textures/doors_trapdoor_steel.png" alt="iron_trapdoor" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `iron_trapdoor` | Iron Trapdoor | 铁活板门 | 5 | - | mcl_doors |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_doors/textures/doors_trapdoor_steel_side.png" alt="iron_trapdoor_open" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `iron_trapdoor_open` | - |  | 5 | - | mcl_doors |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_flowers/textures/mcl_flowers_poppy.png" alt="poppy" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `poppy` | Poppy | 虞美人 | - | - | mcl_flowers |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_creeper.png" alt="creeper" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `creeper` | Creeper Head | 苦力怕的头 | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_creeper.png" alt="creeper_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `creeper_ceiling` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/[combine:16x16:-4,-4=mcl_heads_creeper.png" alt="creeper_wall" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `creeper_wall` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_dragon.png" alt="dragon" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `dragon` | Dragon Head | 龙首 | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_dragon.png" alt="dragon_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `dragon_ceiling` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_dragon.png" alt="dragon_wall" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `dragon_wall` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_piglin.png" alt="piglin" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `piglin` | Piglin Head | 猪灵的头 | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_piglin.png" alt="piglin_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `piglin_ceiling` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_piglin.png" alt="piglin_wall" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `piglin_wall` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_skeleton.png" alt="skeleton" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `skeleton` | Skeleton Skull | 骷髅头颅 | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_skeleton.png" alt="skeleton_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `skeleton_ceiling` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/[combine:16x16:-4,-4=mcl_heads_skeleton.png" alt="skeleton_wall" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `skeleton_wall` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_steve.png" alt="steve" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `steve` | Human Head | 人类的头 | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_steve.png" alt="steve_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `steve_ceiling` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/[combine:16x16:-4,-4=mcl_heads_steve.png" alt="steve_wall" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `steve_wall` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_wither_skeleton.png" alt="wither_skeleton" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `wither_skeleton` | Wither Skeleton Skull | 凋灵骷髅头颅 | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_wither_skeleton.png" alt="wither_skeleton_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `wither_skeleton_ceiling` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/[combine:16x16:-4,-4=mcl_heads_wither_skeleton.png" alt="wither_skeleton_wall" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `wither_skeleton_wall` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_zombie.png" alt="zombie" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `zombie` | Zombie Head | 僵尸的头 | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/mcl_heads_zombie.png" alt="zombie_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `zombie_ceiling` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_heads/textures/[combine:16x16:-4,-4=mcl_heads_zombie.png" alt="zombie_wall" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `zombie_wall` | - |  | 1 | - | mcl_heads |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_itemframes/textures/mcl_itemframes_itemframe_background.png" alt="frame" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `frame` | Item Frame | 物品展示框 | 0.5 | - | mcl_itemframes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_itemframes/textures/mcl_itemframes_glow_item_frame_border.png" alt="glow_frame" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `glow_frame` | Glow Item Frame | 荧光物品展示框 | 0.5 | - | mcl_itemframes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_itemframes/textures/mcl_itemframes_invisible_item_frame.png" alt="invisible_frame" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `invisible_frame` | Invisible Item Frame | 隐形物品展示框 | 0.5 | - | mcl_itemframes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_itemframes/textures/mcl_itemframes_invisible_glow_item_frame.png" alt="invisible_glow_frame" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `invisible_glow_frame` | Invisible Glow Item Frame | 隐形荧光物品展示框 | 0.5 | - | mcl_itemframes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lanterns/textures/mcl_lanterns_chain.png" alt="chain" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `chain` | Chain | 挂链 | 5 | 6 | mcl_lanterns |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_chain.png" alt="copper_chain" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_chain` | Copper Chain |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_chain_exposed.png" alt="copper_chain_exposed" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_chain_exposed` | Exposed Copper Chain |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_chain_oxidized.png" alt="copper_chain_oxidized" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_chain_oxidized` | Oxidized Copper Chain |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_chain_weathered.png" alt="copper_chain_weathered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_chain_weathered` | Weathered Copper Chain |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_lantern.png" alt="copper_lantern_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_lantern_ceiling` | Copper Lantern |  | 3.5 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_lantern_exposed.png" alt="copper_lantern_exposed_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_lantern_exposed_ceiling` | Exposed Copper Lantern |  | 3.5 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_lantern_exposed.png" alt="copper_lantern_exposed_floor" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_lantern_exposed_floor` | Exposed Copper Lantern |  | 3.5 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_lantern.png" alt="copper_lantern_floor" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_lantern_floor` | Copper Lantern |  | 3.5 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_lantern_oxidized.png" alt="copper_lantern_oxidized_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_lantern_oxidized_ceiling` | Oxidized Copper Lantern |  | 3.5 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_lantern_oxidized.png" alt="copper_lantern_oxidized_floor" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_lantern_oxidized_floor` | Oxidized Copper Lantern |  | 3.5 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_lantern_weathered.png" alt="copper_lantern_weathered_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_lantern_weathered_ceiling` | Weathered Copper Lantern |  | 3.5 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_lantern_weathered.png" alt="copper_lantern_weathered_floor" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_lantern_weathered_floor` | Weathered Copper Lantern |  | 3.5 | - | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lanterns/textures/mcl_lanterns_lantern.png" alt="lantern_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `lantern_ceiling` | Lantern | 灯笼 | 3.5 | - | mcl_lanterns |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lanterns/textures/mcl_lanterns_lantern.png" alt="lantern_floor" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `lantern_floor` | Lantern | 灯笼 | 3.5 | - | mcl_lanterns |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lanterns/textures/mcl_lanterns_soul_lantern.png" alt="soul_lantern_ceiling" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `soul_lantern_ceiling` | Soul Lantern | 灵魂灯笼 | 3.5 | - | mcl_lanterns |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lanterns/textures/mcl_lanterns_soul_lantern.png" alt="soul_lantern_floor" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `soul_lantern_floor` | Soul Lantern | 灵魂灯笼 | 3.5 | - | mcl_lanterns |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_deepslate/textures/mcl_deepslate_top.png" alt="monster_egg_deepslate" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `monster_egg_deepslate` | Infested Deepslate | 被虫蚀的深板岩 | 1.5 | 0.75 | mcl_deepslate |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_monster_eggs/textures/default_stone.png" alt="monster_egg_stone" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `monster_egg_stone` | Infested Stone | 虫蚀石头 | 0.75 | 6 | mcl_monster_eggs |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_iron.png" alt="bar" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bar` | - |  | 5 | 6 | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_iron.png" alt="bar_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bar_flat` | Iron Bars | 铁栏杆 | 5 | 6 | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_pane_top.png" alt="copper_bar" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_bar` | - |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_pane_top_exposed.png" alt="copper_bar_exposed" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_bar_exposed` | - |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_pane_top_exposed.png" alt="copper_bar_exposed_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_bar_exposed_flat` | Exposed Copper Bars |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_pane_top.png" alt="copper_bar_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_bar_flat` | Copper Bars |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_pane_top_oxidized.png" alt="copper_bar_oxidized" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_bar_oxidized` | - |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_pane_top_oxidized.png" alt="copper_bar_oxidized_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_bar_oxidized_flat` | Oxidized Copper Bars |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_pane_top_weathered.png" alt="copper_bar_weathered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_bar_weathered` | - |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_pane_top_weathered.png" alt="copper_bar_weathered_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `copper_bar_weathered_flat` | Weathered Copper Bars |  | 5 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_black.png" alt="pane_black" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_black` | - |  | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_black.png" alt="pane_black_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_black_flat` | @1 Glass Pane | @1块玻璃板 | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_blue.png" alt="pane_blue" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_blue` | - |  | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_blue.png" alt="pane_blue_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_blue_flat` | @1 Glass Pane | @1块玻璃板 | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_brown.png" alt="pane_brown" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_brown` | - |  | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_brown.png" alt="pane_brown_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_brown_flat` | @1 Glass Pane | @1块玻璃板 | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_cyan.png" alt="pane_cyan" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_cyan` | - |  | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_cyan.png" alt="pane_cyan_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_cyan_flat` | @1 Glass Pane | @1块玻璃板 | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_green.png" alt="pane_green" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_green` | - |  | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_green.png" alt="pane_green_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_green_flat` | @1 Glass Pane | @1块玻璃板 | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_gray.png" alt="pane_grey" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_grey` | - |  | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_gray.png" alt="pane_grey_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_grey_flat` | @1 Glass Pane | @1块玻璃板 | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_light_blue.png" alt="pane_light_blue" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_light_blue` | - |  | 0.3 | - | mcl_panes |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_panes/textures/xpanes_top_glass_light_blue.png" alt="pane_light_blue_flat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pane_light_blue_flat` | @1 Glass Pane | @1块玻璃板 | 0.3 | - | mcl_panes |
 
 > 显示前 100 个，共 605 个。
 
 
 ## 矿石 (14)
 
-| 方块 | 描述 | 硬度 | 爆炸抗性 | 来源 |
-|------|------|------|---------|------|
-| `stone` | Stone | 1.5 | 6 | mcl_core |
-| `stone_with_coal` | Coal Ore | 3 | - | mcl_core |
-| `stone_with_diamond` | Diamond Ore | 3 | - | mcl_core |
-| `stone_with_emerald` | Emerald Ore | 3 | - | mcl_core |
-| `stone_with_gold` | Gold Ore | 3 | - | mcl_core |
-| `stone_with_iron` | Iron Ore | 3 | - | mcl_core |
-| `stone_with_lapis` | Lapis Lazuli Ore | 3 | - | mcl_core |
-| `stone_with_redstone` | Redstone Ore | 3 | - | mcl_core |
-| `stone_with_redstone_lit` | Lit Redstone Ore | 3 | - | mcl_core |
-| `spore_blossom` | Spore blossom | 0.5 | - | mcl_lush_caves |
-| `quartz_ore` | Nether Quartz Ore | 3 | - | mcl_nether |
-| `raw_gold_block` | Block of Raw Gold | 5 | 6 | mcl_raw_ores |
-| `raw_iron_block` | Block of Raw Iron | 5 | 6 | mcl_raw_ores |
-| `heavy_core` | Heavy Core | 10 | 30 | mcl_tools |
+|  | 方块 | 中文 | 硬度 | 爆炸抗性 | 来源 |
+|:-:|:-----|:-----|-----:|---------:|:-----|
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_core/textures/default_stone.png" alt="stone" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `stone` | Stone | 石头 | 1.5 | 6 | mcl_core |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_core/textures/mcl_core_coal_ore.png" alt="stone_with_coal" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `stone_with_coal` | Coal Ore | 煤矿石 | 3 | - | mcl_core |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_core/textures/mcl_core_diamond_ore.png" alt="stone_with_diamond" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `stone_with_diamond` | Diamond Ore | 钻石矿石 | 3 | - | mcl_core |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_core/textures/mcl_core_emerald_ore.png" alt="stone_with_emerald" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `stone_with_emerald` | Emerald Ore | 翡翠矿石 | 3 | - | mcl_core |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_core/textures/mcl_core_gold_ore.png" alt="stone_with_gold" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `stone_with_gold` | Gold Ore | 金矿石 | 3 | - | mcl_core |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_core/textures/mcl_core_iron_ore.png" alt="stone_with_iron" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `stone_with_iron` | Iron Ore | 铁矿石 | 3 | - | mcl_core |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_core/textures/mcl_core_lapis_ore.png" alt="stone_with_lapis" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `stone_with_lapis` | Lapis Lazuli Ore | 青金石矿石 | 3 | - | mcl_core |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_core/textures/mcl_core_redstone_ore.png" alt="stone_with_redstone" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `stone_with_redstone` | Redstone Ore | 红石矿石 | 3 | - | mcl_core |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_core/textures/mcl_core_redstone_ore.png" alt="stone_with_redstone_lit" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `stone_with_redstone_lit` | Lit Redstone Ore | 燃烧红石矿石 | 3 | - | mcl_core |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lush_caves/textures/mcl_lush_caves_spore_blossom_base.png" alt="spore_blossom" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `spore_blossom` | Spore blossom |  | 0.5 | - | mcl_lush_caves |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_nether/textures/mcl_nether_quartz_ore.png" alt="quartz_ore" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `quartz_ore` | Nether Quartz Ore | 下界石英矿石 | 3 | - | mcl_nether |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_raw_ores/textures/mcl_raw_ores_raw_gold_block.png" alt="raw_gold_block" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `raw_gold_block` | Block of Raw Gold | 粗金块 | 5 | 6 | mcl_raw_ores |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_raw_ores/textures/mcl_raw_ores_raw_iron_block.png" alt="raw_iron_block" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `raw_iron_block` | Block of Raw Iron | 粗铁块 | 5 | 6 | mcl_raw_ores |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tools/textures/mcl_tools_heavy_core_top.png" alt="heavy_core" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `heavy_core` | Heavy Core | 重型核心 | 10 | 30 | mcl_tools |
 
 ## 自然方块 (67)
 
-| 方块 | 描述 | 硬度 | 爆炸抗性 | 来源 |
-|------|------|------|---------|------|
-| `bamboo_big` | Bamboo | 1 | 1 | mcl_bamboo |
-| `bamboo_big_leafbig` | Bamboo | 1 | 1 | mcl_bamboo |
-| `bamboo_big_leafsmall` | Bamboo | 1 | 1 | mcl_bamboo |
-| `bamboo_shoot` | Bamboo | 1 | 1 | mcl_bamboo |
-| `bamboo_small` | Bamboo | 1 | 1 | mcl_bamboo |
-| `bamboo_small_leafbig` | Bamboo | 1 | 1 | mcl_bamboo |
-| `bamboo_small_leafsmall` | Bamboo | 1 | 1 | mcl_bamboo |
-| `beetroot` | Mature Beetroot Plant | 0 | - | mcl_farming |
-| `beetroot_0` | Premature Beetroot Plant (Stage 1) | 0 | - | mcl_farming |
-| `beetroot_1` | Premature Beetroot Plant (Stage 2) | 0 | - | mcl_farming |
-| `beetroot_2` | Premature Beetroot Plant (Stage 3) | 0 | - | mcl_farming |
-| `carrot` | Mature Carrot Plant | 0 | - | mcl_farming |
-| `carrot_1` | Premature Carrot Plant (Stage @1) | 0 | - | mcl_farming |
-| `carrot_2` | Premature Carrot Plant (Stage @1) | 0 | - | mcl_farming |
-| `carrot_3` | Premature Carrot Plant (Stage @1) | 0 | - | mcl_farming |
-| `carrot_4` | Premature Carrot Plant (Stage @1) | 0 | - | mcl_farming |
-| `carrot_5` | Premature Carrot Plant (Stage @1) | 0 | - | mcl_farming |
-| `carrot_6` | Premature Carrot Plant (Stage @1) | 0 | - | mcl_farming |
-| `carrot_7` | Premature Carrot Plant (Stage @1) | 0 | - | mcl_farming |
-| `melontige_1` | Premature Melon Stem (Stage @1) | 0 | - | mcl_farming |
-| `melontige_2` | Premature Melon Stem (Stage @1) | 0 | - | mcl_farming |
-| `melontige_3` | Premature Melon Stem (Stage @1) | 0 | - | mcl_farming |
-| `melontige_4` | Premature Melon Stem (Stage @1) | 0 | - | mcl_farming |
-| `melontige_5` | Premature Melon Stem (Stage @1) | 0 | - | mcl_farming |
-| `melontige_6` | Premature Melon Stem (Stage @1) | 0 | - | mcl_farming |
-| `melontige_7` | Premature Melon Stem (Stage @1) | 0 | - | mcl_farming |
-| `melontige_linked_b` | mcl_farming:melontige_linked_b | 0 | - | mcl_farming |
-| `melontige_linked_l` | mcl_farming:melontige_linked_l | 0 | - | mcl_farming |
-| `melontige_linked_r` | mcl_farming:melontige_linked_r | 0 | - | mcl_farming |
-| `melontige_linked_t` | mcl_farming:melontige_linked_t | 0 | - | mcl_farming |
-| `melontige_unconnect` | Mature Melon Stem | - | - | mcl_farming |
-| `potato` | Mature Potato Plant | 0 | - | mcl_farming |
-| `potato_1` | Premature Potato Plant (Stage @1) | 0 | - | mcl_farming |
-| `potato_2` | Premature Potato Plant (Stage @1) | 0 | - | mcl_farming |
-| `potato_3` | Premature Potato Plant (Stage @1) | 0 | - | mcl_farming |
-| `potato_4` | Premature Potato Plant (Stage @1) | 0 | - | mcl_farming |
-| `potato_5` | Premature Potato Plant (Stage @1) | 0 | - | mcl_farming |
-| `potato_6` | Premature Potato Plant (Stage @1) | 0 | - | mcl_farming |
-| `potato_7` | Premature Potato Plant (Stage @1) | 0 | - | mcl_farming |
-| `pumpkin_1` | Premature Pumpkin Stem (Stage @1) | 0 | - | mcl_farming |
-| `pumpkin_2` | Premature Pumpkin Stem (Stage @1) | 0 | - | mcl_farming |
-| `pumpkin_3` | Premature Pumpkin Stem (Stage @1) | 0 | - | mcl_farming |
-| `pumpkin_4` | Premature Pumpkin Stem (Stage @1) | 0 | - | mcl_farming |
-| `pumpkin_5` | Premature Pumpkin Stem (Stage @1) | 0 | - | mcl_farming |
-| `pumpkin_6` | Premature Pumpkin Stem (Stage @1) | 0 | - | mcl_farming |
-| `pumpkin_7` | Premature Pumpkin Stem (Stage @1) | 0 | - | mcl_farming |
-| `pumpkintige_linked_b` | mcl_farming:pumpkintige_linked_b | 0 | - | mcl_farming |
-| `pumpkintige_linked_l` | mcl_farming:pumpkintige_linked_l | 0 | - | mcl_farming |
-| `pumpkintige_linked_r` | mcl_farming:pumpkintige_linked_r | 0 | - | mcl_farming |
-| `pumpkintige_linked_t` | mcl_farming:pumpkintige_linked_t | 0 | - | mcl_farming |
-| `pumpkintige_unconnect` | Mature Pumpkin Stem | - | - | mcl_farming |
-| `sweet_berry_bush_0` | Sweet Berry Bush (Stage @1) | 0 | - | mcl_farming |
-| `sweet_berry_bush_1` | Sweet Berry Bush (Stage @1) | 0 | - | mcl_farming |
-| `sweet_berry_bush_2` | Sweet Berry Bush (Stage @1) | 0 | - | mcl_farming |
-| `sweet_berry_bush_3` | Sweet Berry Bush (Stage @1) | 0 | - | mcl_farming |
-| `wheat` | Mature Wheat Plant | 0 | - | mcl_farming |
-| `wheat_1` | Premature Wheat Plant (Stage @1) | 0 | - | mcl_farming |
-| `wheat_2` | Premature Wheat Plant (Stage @1) | 0 | - | mcl_farming |
-| `wheat_3` | Premature Wheat Plant (Stage @1) | 0 | - | mcl_farming |
-| `wheat_4` | Premature Wheat Plant (Stage @1) | 0 | - | mcl_farming |
-| `wheat_5` | Premature Wheat Plant (Stage @1) | 0 | - | mcl_farming |
-| `wheat_6` | Premature Wheat Plant (Stage @1) | 0 | - | mcl_farming |
-| `wheat_7` | Premature Wheat Plant (Stage @1) | 0 | - | mcl_farming |
-| `dripleaf_big` | Big Dripleaf | - | - | mcl_lush_caves |
-| `dripleaf_big_stem` | mcl_lush_caves:dripleaf_big_stem | - | - | mcl_lush_caves |
-| `dripleaf_small` | Small Dripleaf | - | - | mcl_lush_caves |
-| `dripleaf_small_stem` | mcl_lush_caves:dripleaf_small_stem | - | - | mcl_lush_caves |
+|  | 方块 | 中文 | 硬度 | 爆炸抗性 | 来源 |
+|:-:|:-----|:-----|-----:|---------:|:-----|
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_bamboo/textures/mcl_bamboo_bamboo.png" alt="bamboo_big" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bamboo_big` | Bamboo | 竹子 | 1 | 1 | mcl_bamboo |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_bamboo/textures/mcl_bamboo_bamboo.png" alt="bamboo_big_leafbig" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bamboo_big_leafbig` | Bamboo | 竹子 | 1 | 1 | mcl_bamboo |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_bamboo/textures/mcl_bamboo_bamboo.png" alt="bamboo_big_leafsmall" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bamboo_big_leafsmall` | Bamboo | 竹子 | 1 | 1 | mcl_bamboo |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_bamboo/textures/mcl_bamboo_bamboo.png" alt="bamboo_shoot" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bamboo_shoot` | Bamboo | 竹子 | 1 | 1 | mcl_bamboo |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_bamboo/textures/mcl_bamboo_bamboo.png" alt="bamboo_small" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bamboo_small` | Bamboo | 竹子 | 1 | 1 | mcl_bamboo |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_bamboo/textures/mcl_bamboo_bamboo.png" alt="bamboo_small_leafbig" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bamboo_small_leafbig` | Bamboo | 竹子 | 1 | 1 | mcl_bamboo |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_bamboo/textures/mcl_bamboo_bamboo.png" alt="bamboo_small_leafsmall" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bamboo_small_leafsmall` | Bamboo | 竹子 | 1 | 1 | mcl_bamboo |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_beetroot_3.png" alt="beetroot" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `beetroot` | Mature Beetroot Plant | 成熟甜菜植株 | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_beetroot_0.png" alt="beetroot_0" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `beetroot_0` | Premature Beetroot Plant (Stage 1) | 未成熟甜菜植株（第一阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_beetroot_1.png" alt="beetroot_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `beetroot_1` | Premature Beetroot Plant (Stage 2) | 未成熟甜菜植株（第二阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_beetroot_2.png" alt="beetroot_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `beetroot_2` | Premature Beetroot Plant (Stage 3) | 未成熟甜菜植株（第三阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_carrot_4.png" alt="carrot" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `carrot` | Mature Carrot Plant | 成熟胡萝卜植株 | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_carrot_1.png" alt="carrot_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `carrot_1` | Premature Carrot Plant (Stage @1) | 未成熟胡萝卜植株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_carrot_1.png" alt="carrot_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `carrot_2` | Premature Carrot Plant (Stage @1) | 未成熟胡萝卜植株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_carrot_2.png" alt="carrot_3" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `carrot_3` | Premature Carrot Plant (Stage @1) | 未成熟胡萝卜植株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_carrot_2.png" alt="carrot_4" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `carrot_4` | Premature Carrot Plant (Stage @1) | 未成熟胡萝卜植株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_carrot_3.png" alt="carrot_5" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `carrot_5` | Premature Carrot Plant (Stage @1) | 未成熟胡萝卜植株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_carrot_3.png" alt="carrot_6" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `carrot_6` | Premature Carrot Plant (Stage @1) | 未成熟胡萝卜植株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/farming_carrot_3.png" alt="carrot_7" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `carrot_7` | Premature Carrot Plant (Stage @1) | 未成熟胡萝卜植株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="melontige_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_1` | Premature Melon Stem (Stage @1) | 西瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="melontige_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_2` | Premature Melon Stem (Stage @1) | 西瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="melontige_3" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_3` | Premature Melon Stem (Stage @1) | 西瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="melontige_4" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_4` | Premature Melon Stem (Stage @1) | 西瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="melontige_5" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_5` | Premature Melon Stem (Stage @1) | 西瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="melontige_6" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_6` | Premature Melon Stem (Stage @1) | 西瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="melontige_7" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_7` | Premature Melon Stem (Stage @1) | 西瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/blank.png" alt="melontige_linked_b" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_linked_b` | mcl_farming:melontige_linked_b |  | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/blank.png" alt="melontige_linked_l" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_linked_l` | mcl_farming:melontige_linked_l |  | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/blank.png" alt="melontige_linked_r" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_linked_r` | mcl_farming:melontige_linked_r |  | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/blank.png" alt="melontige_linked_t" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_linked_t` | mcl_farming:melontige_linked_t |  | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_melon_stem_disconnected.png" alt="melontige_unconnect" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `melontige_unconnect` | Mature Melon Stem | 成熟西瓜藤 | - | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_potatoes_stage_3.png" alt="potato" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `potato` | Mature Potato Plant | 成熟土豆植株 | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_potatoes_stage_0.png" alt="potato_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `potato_1` | Premature Potato Plant (Stage @1) | 土豆幼株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_potatoes_stage_0.png" alt="potato_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `potato_2` | Premature Potato Plant (Stage @1) | 土豆幼株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_potatoes_stage_1.png" alt="potato_3" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `potato_3` | Premature Potato Plant (Stage @1) | 土豆幼株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_potatoes_stage_1.png" alt="potato_4" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `potato_4` | Premature Potato Plant (Stage @1) | 土豆幼株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_potatoes_stage_2.png" alt="potato_5" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `potato_5` | Premature Potato Plant (Stage @1) | 土豆幼株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_potatoes_stage_2.png" alt="potato_6" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `potato_6` | Premature Potato Plant (Stage @1) | 土豆幼株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_potatoes_stage_2.png" alt="potato_7" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `potato_7` | Premature Potato Plant (Stage @1) | 土豆幼株（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="pumpkin_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkin_1` | Premature Pumpkin Stem (Stage @1) | 南瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="pumpkin_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkin_2` | Premature Pumpkin Stem (Stage @1) | 南瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="pumpkin_3" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkin_3` | Premature Pumpkin Stem (Stage @1) | 南瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="pumpkin_4" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkin_4` | Premature Pumpkin Stem (Stage @1) | 南瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="pumpkin_5" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkin_5` | Premature Pumpkin Stem (Stage @1) | 南瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="pumpkin_6" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkin_6` | Premature Pumpkin Stem (Stage @1) | 南瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/(" alt="pumpkin_7" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkin_7` | Premature Pumpkin Stem (Stage @1) | 南瓜幼藤（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/blank.png" alt="pumpkintige_linked_b" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkintige_linked_b` | mcl_farming:pumpkintige_linked_b |  | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/blank.png" alt="pumpkintige_linked_l" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkintige_linked_l` | mcl_farming:pumpkintige_linked_l |  | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/blank.png" alt="pumpkintige_linked_r" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkintige_linked_r` | mcl_farming:pumpkintige_linked_r |  | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/blank.png" alt="pumpkintige_linked_t" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkintige_linked_t` | mcl_farming:pumpkintige_linked_t |  | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_pumpkin_stem_disconnected.png" alt="pumpkintige_unconnect" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `pumpkintige_unconnect` | Mature Pumpkin Stem | 成熟南瓜蔓 | - | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_sweet_berry_bush_0.png" alt="sweet_berry_bush_0" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `sweet_berry_bush_0` | Sweet Berry Bush (Stage @1) | 甜浆果丛（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_sweet_berry_bush_1.png" alt="sweet_berry_bush_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `sweet_berry_bush_1` | Sweet Berry Bush (Stage @1) | 甜浆果丛（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_sweet_berry_bush_2.png" alt="sweet_berry_bush_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `sweet_berry_bush_2` | Sweet Berry Bush (Stage @1) | 甜浆果丛（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_sweet_berry_bush_3.png" alt="sweet_berry_bush_3" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `sweet_berry_bush_3` | Sweet Berry Bush (Stage @1) | 甜浆果丛（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_wheat_stage_7.png" alt="wheat" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `wheat` | Mature Wheat Plant | 成熟小麦植株 | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_wheat_stage_0.png" alt="wheat_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `wheat_1` | Premature Wheat Plant (Stage @1) | 小麦幼苗（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_wheat_stage_1.png" alt="wheat_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `wheat_2` | Premature Wheat Plant (Stage @1) | 小麦幼苗（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_wheat_stage_2.png" alt="wheat_3" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `wheat_3` | Premature Wheat Plant (Stage @1) | 小麦幼苗（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_wheat_stage_3.png" alt="wheat_4" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `wheat_4` | Premature Wheat Plant (Stage @1) | 小麦幼苗（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_wheat_stage_4.png" alt="wheat_5" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `wheat_5` | Premature Wheat Plant (Stage @1) | 小麦幼苗（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_wheat_stage_5.png" alt="wheat_6" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `wheat_6` | Premature Wheat Plant (Stage @1) | 小麦幼苗（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_wheat_stage_6.png" alt="wheat_7" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `wheat_7` | Premature Wheat Plant (Stage @1) | 小麦幼苗（第@1阶段） | 0 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lush_caves/textures/mcl_lush_caves_dripleaf_big.png" alt="dripleaf_big" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `dripleaf_big` | Big Dripleaf |  | - | - | mcl_lush_caves |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lush_caves/textures/mcl_lush_caves_dripleaf_big.png" alt="dripleaf_big_stem" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `dripleaf_big_stem` | mcl_lush_caves:dripleaf_big_stem |  | - | - | mcl_lush_caves |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lush_caves/textures/mcl_lush_caves_dripleaf_small.png" alt="dripleaf_small" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `dripleaf_small` | Small Dripleaf |  | - | - | mcl_lush_caves |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lush_caves/textures/mcl_lush_caves_dripleaf_small.png" alt="dripleaf_small_stem" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `dripleaf_small_stem` | mcl_lush_caves:dripleaf_small_stem |  | - | - | mcl_lush_caves |
 
 ## 其他 (57)
 
-| 方块 | 描述 | 硬度 | 爆炸抗性 | 来源 |
-|------|------|------|---------|------|
-| `iron_door_b_1` | :mcl_doors:iron_door_b_1 | 5 | - | mcl_doors |
-| `iron_door_b_2` | :mcl_doors:iron_door_b_2 | 5 | - | mcl_doors |
-| `iron_door_t_1` | :mcl_doors:iron_door_t_1 | 5 | - | mcl_doors |
-| `iron_door_t_2` | :mcl_doors:iron_door_t_2 | 5 | - | mcl_doors |
-| `flower_pot_azalea` | Azalea Plant Flower Pot | - | - | mcl_lush_caves |
-| `flower_pot_azalea_flowering` | Flowering Azalea Plant Flower Pot | - | - | mcl_lush_caves |
-| `flower_pot_bamboo` | Bamboo Plant Flower Pot | - | - | mcl_bamboo |
-| `flower_pot_mushroom_brown` | Brown Mushroom Flower Pot | - | - | mcl_mushrooms |
-| `flower_pot_mushroom_red` | Red Mushroom Flower Pot | - | - | mcl_mushrooms |
-| `beacon_beam` | mcl_beacons:beacon_beam | 1200 | - | mcl_beacons |
-| `soul_fire` | Eternal Soul Fire | - | - | mcl_blackstone |
-| `cake` | Cake | 0.5 | - | mcl_cake |
-| `cake_1` | Cake | 0.5 | - | mcl_cake |
-| `cake_2` | Cake | 0.5 | - | mcl_cake |
-| `cake_3` | Cake | 0.5 | - | mcl_cake |
-| `cake_4` | Cake | 0.5 | - | mcl_cake |
-| `cake_5` | Cake | 0.5 | - | mcl_cake |
-| `cake_6` | Cake | 0.5 | - | mcl_cake |
-| `candle_cake` | Cake | - | - | mcl_candles |
-| `candle_cake_lit` | Cake | - | - | mcl_candles |
-| `candle_lit_1` | Lit Candle | 0.1 | - | mcl_candles |
-| `candle_lit_2` | Lit Candle | 0.1 | - | mcl_candles |
-| `candle_lit_3` | Lit Candle | 0.1 | - | mcl_candles |
-| `candle_lit_4` | Lit Candle | 0.1 | - | mcl_candles |
-| `cocoa_1` | Premature Cocoa Pod | 0.2 | 3 | mcl_cocoas |
-| `cocoa_2` | Medium Cocoa Pod | 0.2 | 3 | mcl_cocoas |
-| `cocoa_3` | Mature Cocoa Pod | 0.2 | 3 | mcl_cocoas |
-| `bulb_exposed_off_powered` | Exposed Copper Bulb Powered Off | 3 | 6 | mcl_copper |
-| `bulb_exposed_on` | Exposed Copper Bulb On | 3 | 6 | mcl_copper |
-| `bulb_exposed_on_powered` | Exposed Copper Bulb Powered On | 3 | 6 | mcl_copper |
-| `bulb_off_powered` | Copper Bulb Powered Off | 3 | 6 | mcl_copper |
-| `bulb_on` | Copper Bulb On | 3 | 6 | mcl_copper |
-| `bulb_on_powered` | Copper Bulb Powered On | 3 | 6 | mcl_copper |
-| `bulb_oxidized_off_powered` | Oxidized Copper Bulb Powered Off | 3 | 6 | mcl_copper |
-| `bulb_oxidized_on` | Oxidized Copper Bulb On | 3 | 6 | mcl_copper |
-| `bulb_oxidized_on_powered` | Oxidized Copper Bulb Powered On | 3 | 6 | mcl_copper |
-| `bulb_weathered_off_powered` | Weathered Copper Bulb Powered Off | 3 | 6 | mcl_copper |
-| `bulb_weathered_on` | Weathered Copper Bulb On | 3 | 6 | mcl_copper |
-| `bulb_weathered_on_powered` | Weathered Copper Bulb Powered On | 3 | 6 | mcl_copper |
-| `soil_wet` | Hydrated Farmland | 0.6 | - | mcl_farming |
-| `eternal_fire` | Eternal Fire | 0 | - | mcl_fire |
-| `fire` | Fire | 0 | - | mcl_fire |
-| `rod` | Lightning Rod | 3 | 6 | mcl_lightning_rods |
-| `rod_exposed` | Exposed Lightning Rod | 3 | 6 | mcl_lightning_rods |
-| `rod_exposed_powered` | Lightning Rod | 3 | 6 | mcl_lightning_rods |
-| `rod_oxidized` | Oxidized Lightning Rod | 3 | 6 | mcl_lightning_rods |
-| `rod_oxidized_powered` | Lightning Rod | 3 | 6 | mcl_lightning_rods |
-| `rod_powered` | Lightning Rod | 3 | 6 | mcl_lightning_rods |
-| `rod_weathered` | Weathered Lightning Rod | 3 | 6 | mcl_lightning_rods |
-| `rod_weathered_powered` | Lightning Rod | 3 | 6 | mcl_lightning_rods |
-| `dripleaf_big_tipped_full` | Big Dripleaf | - | - | mcl_lush_caves |
-| `dripleaf_big_tipped_half` | Big Dripleaf | - | - | mcl_lush_caves |
-| `hand_crea` |  | - | - | mcl_meshhand |
-| `hand_surv` |  | - | - | mcl_meshhand |
-| `powder_snow` | Powder Snow | 0.1 | - | mcl_powder_snow |
-| `tnt` | TNT | - | - | mcl_tnt |
-| `demo_poi` | Example POI | -1 | 36000008 | mcl_villages |
+|  | 方块 | 中文 | 硬度 | 爆炸抗性 | 来源 |
+|:-:|:-----|:-----|-----:|---------:|:-----|
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_doors/textures/blank.png" alt="iron_door_b_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `iron_door_b_1` | - |  | 5 | - | mcl_doors |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_doors/textures/blank.png" alt="iron_door_b_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `iron_door_b_2` | - |  | 5 | - | mcl_doors |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_doors/textures/mcl_doors_door_iron_side_upper.png" alt="iron_door_t_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `iron_door_t_1` | - |  | 5 | - | mcl_doors |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_doors/textures/mcl_doors_door_iron_side_upper.png" alt="iron_door_t_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `iron_door_t_2` | - |  | 5 | - | mcl_doors |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lush_caves/textures/mcl_flowerpots_flowerpot.png" alt="flower_pot_azalea" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `flower_pot_azalea` | Azalea Plant Flower Pot |  | - | - | mcl_lush_caves |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lush_caves/textures/mcl_flowerpots_flowerpot.png" alt="flower_pot_azalea_flowering" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `flower_pot_azalea_flowering` | Flowering Azalea Plant Flower Pot |  | - | - | mcl_lush_caves |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_bamboo/textures/mcl_bamboo_bamboo_fpm.png" alt="flower_pot_bamboo" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `flower_pot_bamboo` | Bamboo Plant Flower Pot |  | - | - | mcl_bamboo |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_mushrooms/textures/mcl_flowerpots_flowerpot.png" alt="flower_pot_mushroom_brown" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `flower_pot_mushroom_brown` | Brown Mushroom Flower Pot |  | - | - | mcl_mushrooms |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_mushrooms/textures/mcl_flowerpots_flowerpot.png" alt="flower_pot_mushroom_red" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `flower_pot_mushroom_red` | Red Mushroom Flower Pot |  | - | - | mcl_mushrooms |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_beacons/textures/blank.png" alt="beacon_beam" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `beacon_beam` | mcl_beacons:beacon_beam |  | 1200 | - | mcl_beacons |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_blackstone/textures/soul_fire_basic_flame_animated.png" alt="soul_fire" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `soul_fire` | Eternal Soul Fire | 永恒灵魂火 | - | - | mcl_blackstone |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_cake/textures/cake_top.png" alt="cake" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `cake` | Cake | 蛋糕 | 0.5 | - | mcl_cake |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_cake/textures/cake_top.png" alt="cake_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `cake_1` | Cake | 蛋糕 | 0.5 | - | mcl_cake |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_cake/textures/cake_top.png" alt="cake_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `cake_2` | Cake | 蛋糕 | 0.5 | - | mcl_cake |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_cake/textures/cake_top.png" alt="cake_3" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `cake_3` | Cake | 蛋糕 | 0.5 | - | mcl_cake |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_cake/textures/cake_top.png" alt="cake_4" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `cake_4` | Cake | 蛋糕 | 0.5 | - | mcl_cake |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_cake/textures/cake_top.png" alt="cake_5" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `cake_5` | Cake | 蛋糕 | 0.5 | - | mcl_cake |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_cake/textures/cake_top.png" alt="cake_6" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `cake_6` | Cake | 蛋糕 | 0.5 | - | mcl_cake |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_candles/textures/cake_top.png" alt="candle_cake" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `candle_cake` | Cake | 蛋糕 | - | - | mcl_candles |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_candles/textures/cake_top.png" alt="candle_cake_lit" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `candle_cake_lit` | Cake | 蛋糕 | - | - | mcl_candles |
+| `candle_lit_1` | Lit Candle |  | 0.1 | - | mcl_candles |
+| `candle_lit_2` | Lit Candle |  | 0.1 | - | mcl_candles |
+| `candle_lit_3` | Lit Candle |  | 0.1 | - | mcl_candles |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_candles/textures/mcl_candles_candle.png" alt="candle_lit_4" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `candle_lit_4` | Lit Candle |  | 0.1 | - | mcl_candles |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_cocoas/textures/mcl_cocoas_cocoa_stage_0.png" alt="cocoa_1" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `cocoa_1` | Premature Cocoa Pod | 未成熟的可可豆荚 | 0.2 | 3 | mcl_cocoas |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_cocoas/textures/mcl_cocoas_cocoa_stage_1.png" alt="cocoa_2" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `cocoa_2` | Medium Cocoa Pod | 半成熟的可可豆荚 | 0.2 | 3 | mcl_cocoas |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_cocoas/textures/mcl_cocoas_cocoa_stage_2.png" alt="cocoa_3" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `cocoa_3` | Mature Cocoa Pod | 成熟的可可豆荚 | 0.2 | 3 | mcl_cocoas |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_exposed_bulb_off_powered.png" alt="bulb_exposed_off_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_exposed_off_powered` | Exposed Copper Bulb Powered Off | 未激活的斑驳铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_exposed_bulb_on.png" alt="bulb_exposed_on" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_exposed_on` | Exposed Copper Bulb On | 亮起的斑驳铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_exposed_bulb_on_powered.png" alt="bulb_exposed_on_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_exposed_on_powered` | Exposed Copper Bulb Powered On | 激活的斑驳铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_block_bulb_off_powered.png" alt="bulb_off_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_off_powered` | Copper Bulb Powered Off | 未激活的铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_block_bulb_on.png" alt="bulb_on" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_on` | Copper Bulb On | 亮起的铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_block_bulb_on_powered.png" alt="bulb_on_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_on_powered` | Copper Bulb Powered On | 激活的铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_oxidized_bulb_off_powered.png" alt="bulb_oxidized_off_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_oxidized_off_powered` | Oxidized Copper Bulb Powered Off | 未激活的氧化铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_oxidized_bulb_on.png" alt="bulb_oxidized_on" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_oxidized_on` | Oxidized Copper Bulb On | 亮起的氧化铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_oxidized_bulb_on_powered.png" alt="bulb_oxidized_on_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_oxidized_on_powered` | Oxidized Copper Bulb Powered On | 激活的氧化铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_weathered_bulb_off_powered.png" alt="bulb_weathered_off_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_weathered_off_powered` | Weathered Copper Bulb Powered Off | 未激活的锈蚀铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_weathered_bulb_on.png" alt="bulb_weathered_on" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_weathered_on` | Weathered Copper Bulb On | 亮起的锈蚀铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_copper/textures/mcl_copper_weathered_bulb_on_powered.png" alt="bulb_weathered_on_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `bulb_weathered_on_powered` | Weathered Copper Bulb Powered On | 激活的锈蚀铜灯 | 3 | 6 | mcl_copper |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_farming/textures/mcl_farming_farmland_wet.png" alt="soil_wet" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `soil_wet` | Hydrated Farmland | 湿润耕地 | 0.6 | - | mcl_farming |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_fire/textures/fire_basic_flame_animated.png" alt="eternal_fire" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `eternal_fire` | Eternal Fire | 永恒之火 | 0 | - | mcl_fire |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_fire/textures/fire_basic_flame_animated.png" alt="fire" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `fire` | Fire | 火 | 0 | - | mcl_fire |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lightning_rods/textures/mcl_lightning_rods_rod.png" alt="rod" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `rod` | Lightning Rod | 避雷针 | 3 | 6 | mcl_lightning_rods |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lightning_rods/textures/mcl_lightning_rods_rod_exposed.png" alt="rod_exposed" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `rod_exposed` | Exposed Lightning Rod |  | 3 | 6 | mcl_lightning_rods |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lightning_rods/textures/mcl_lightning_rods_rod_exposed.png" alt="rod_exposed_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `rod_exposed_powered` | Lightning Rod | 避雷针 | 3 | 6 | mcl_lightning_rods |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lightning_rods/textures/mcl_lightning_rods_rod_oxidized.png" alt="rod_oxidized" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `rod_oxidized` | Oxidized Lightning Rod |  | 3 | 6 | mcl_lightning_rods |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lightning_rods/textures/mcl_lightning_rods_rod_oxidized.png" alt="rod_oxidized_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `rod_oxidized_powered` | Lightning Rod | 避雷针 | 3 | 6 | mcl_lightning_rods |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lightning_rods/textures/mcl_lightning_rods_rod.png" alt="rod_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `rod_powered` | Lightning Rod | 避雷针 | 3 | 6 | mcl_lightning_rods |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lightning_rods/textures/mcl_lightning_rods_rod_weathered.png" alt="rod_weathered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `rod_weathered` | Weathered Lightning Rod |  | 3 | 6 | mcl_lightning_rods |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lightning_rods/textures/mcl_lightning_rods_rod_weathered.png" alt="rod_weathered_powered" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `rod_weathered_powered` | Lightning Rod | 避雷针 | 3 | 6 | mcl_lightning_rods |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lush_caves/textures/mcl_lush_caves_dripleaf_big.png" alt="dripleaf_big_tipped_full" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `dripleaf_big_tipped_full` | Big Dripleaf |  | - | - | mcl_lush_caves |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_lush_caves/textures/mcl_lush_caves_dripleaf_big.png" alt="dripleaf_big_tipped_half" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `dripleaf_big_tipped_half` | Big Dripleaf |  | - | - | mcl_lush_caves |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_meshhand/textures/character.png" alt="hand_crea" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `hand_crea` |  |  | - | - | mcl_meshhand |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_meshhand/textures/character.png" alt="hand_surv" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `hand_surv` |  |  | - | - | mcl_meshhand |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_powder_snow/textures/powder_snow.png" alt="powder_snow" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `powder_snow` | Powder Snow |  | 0.1 | - | mcl_powder_snow |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_tnt/textures/default_tnt_top.png" alt="tnt" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `tnt` | TNT | 三硝基甲苯（炸药） | - | - | mcl_tnt |
+| <img src="https://codeberg.org/mineclonia/mineclonia/raw/branch/main/mods/ITEMS/mcl_villages/textures/blank.png" alt="demo_poi" width="24" height="24" style="vertical-align:middle;cursor:help" onerror="this.style.display='none'" /> `demo_poi` | Example POI | 兴趣点示例 | -1 | 36000008 | mcl_villages |

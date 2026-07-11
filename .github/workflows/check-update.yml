@@ -16,6 +16,11 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+env:
+  MINECLONIA_REMOTE: https://codeberg.org/mineclonia/mineclonia.git
+  MINECLONIA_BRANCH: main
+  VERSION_FILE: scripts/.last_commit
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,27 +33,74 @@ jobs:
           node-version: '20'
           cache: npm
 
-      - name: Install dependencies
+      - name: Setup Lua
+        run: sudo apt-get install -y lua5.3
+
+      - name: Install npm deps
         run: npm ci
 
       - name: Check for MineClonia updates
         id: check
         run: |
-          # TODO: 实现版本检测逻辑
-          echo "has_update=true" >> $GITHUB_OUTPUT
-          echo "version=latest" >> $GITHUB_OUTPUT
+          REMOTE_HEAD=$(git ls-remote --refs "$MINECLONIA_REMOTE" "$MINECLONIA_BRANCH" | cut -f1)
+          LOCAL_HEAD=""
+          [ -f "$VERSION_FILE" ] && LOCAL_HEAD=$(cat "$VERSION_FILE")
 
-      - name: Pull latest MineClonia source
-        if: steps.check.outputs.has_update == 'true'
-        run: |
-          # TODO: 拉取最新源码
-          echo "Pulling latest source..."
+          if [ "$REMOTE_HEAD" = "$LOCAL_HEAD" ]; then
+            echo "has_update=false" >> $GITHUB_OUTPUT
+            echo "commit=$REMOTE_HEAD" >> $GITHUB_OUTPUT
+            echo "No update. HEAD=$REMOTE_HEAD"
+          else
+            echo "has_update=true" >> $GITHUB_OUTPUT
+            echo "commit=$REMOTE_HEAD" >> $GITHUB_OUTPUT
+            echo "Update: $LOCAL_HEAD -> $REMOTE_HEAD"
+          fi
 
-      - name: Run Lua parser
+      - name: Restore MineClonia from cache
+        id: cache
         if: steps.check.outputs.has_update == 'true'
+        uses: actions/cache@v4
+        with:
+          path: mineclonia
+          key: mineclonia-${{ steps.check.outputs.commit }}
+
+      - name: Fetch MineClonia source
+        if: steps.check.outputs.has_update == 'true' && steps.cache.outputs.cache-hit != 'true'
         run: |
-          # TODO: 运行 Lua 解析脚本生成 wiki 数据
-          echo "Generating wiki data from source..."
+          rm -rf mineclonia
+          git clone --depth=1 --single-branch --sparse \
+            --branch "$MINECLONIA_BRANCH" "$MINECLONIA_REMOTE" mineclonia
+          # 只检出 mods/，排除 textures/sounds/models 等二进制资源
+          git -C mineclonia sparse-checkout set --no-cone \
+            'mods/**' \
+            '!mods/*/textures/' '!mods/*/sounds/' '!mods/*/models/' \
+            '!mods/ITEMS/*/textures/' '!mods/ITEMS/*/sounds/' '!mods/ITEMS/*/models/' \
+            '!mods/CORE/*/textures/' '!mods/CORE/*/sounds/' '!mods/CORE/*/models/' \
+            '!mods/ENTITIES/*/textures/' '!mods/ENTITIES/*/sounds/' '!mods/ENTITIES/*/models/' \
+            '!mods/PLAYER/*/textures/' '!mods/PLAYER/*/sounds/' '!mods/PLAYER/*/models/' \
+            '!mods/HUD/*/textures/' '!mods/HUD/*/sounds/' '!mods/HUD/*/models/' \
+            '!mods/MAPGEN/*/textures/' '!mods/MAPGEN/*/sounds/' '!mods/MAPGEN/*/models/' \
+            '!mods/ENVIRONMENT/*/textures/' '!mods/ENVIRONMENT/*/sounds/' '!mods/ENVIRONMENT/*/models/' \
+            '!mods/COMPAT/*/textures/' '!mods/COMPAT/*/sounds/' '!mods/COMPAT/*/models/' \
+            '!mods/MISC/*/textures/' '!mods/MISC/*/sounds/' '!mods/MISC/*/models/'
+          # 移除 .git 节省 cache 空间
+          rm -rf mineclonia/.git
+
+      - name: Capture data (Lua mock API)
+        if: steps.check.outputs.has_update == 'true'
+        run: lua scripts/run_capture.lua mineclonia scripts/output.json
+
+      - name: Parse translations
+        if: steps.check.outputs.has_update == 'true'
+        run: python3 scripts/parse_translations.py mineclonia scripts/translations.json
+
+      - name: Generate wiki pages
+        if: steps.check.outputs.has_update == 'true'
+        run: python3 scripts/generate_wiki.py scripts/output.json wiki scripts/translations.json
+
+      - name: Save version
+        if: steps.check.outputs.has_update == 'true'
+        run: echo "${{ steps.check.outputs.commit }}" > "$VERSION_FILE"
 
       - name: Build VitePress
         run: npm run build

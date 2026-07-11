@@ -28,3 +28,4 @@ build/
 wiki/.vitepress/cache/
 wiki/.vitepress/dist/
 .mimocode
+scripts/output.json
